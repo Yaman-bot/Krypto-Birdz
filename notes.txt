@@ -1,0 +1,34 @@
+Visibility Quantifiers
+Following are various visibility quantifiers for functions/state variables of a contract.
+
+external − External functions are meant to be called by other contracts. They cannot be used for internal call. To call external function within contract this.function_name() call is required. State variables cannot be marked as external.
+
+public − Public functions/ Variables can be used both externally and internally. For public state variable, Solidity automatically creates a getter function.
+
+internal − Internal functions/ Variables can only be used internally or by derived contracts.
+
+private − Private functions/ Variables can only be used internally and not even by derived contracts.
+
+Interface->
+An interface is like an abstarct contract,but we can only define unimplemented functions.Essentialy acts like an outline of Solidity code contracting,
+which enables contracts written by other developers work well together,without having to know all the code of each developer.
+
+ERC165 Standard->
+Every ERC721 compliant contract must implement the ERC721 and ERC165 interfaces.
+
+The ERC165 Standard is just a way of checking if our contract's data match the data of any given interface.
+
+Bytes4-> Bytes is a dynammic array of bytes. Its shortened for byte[]. bytes4 is 4 bytes long.
+We can define varibales by using keyword bytesX where X represents the number of bytes.X can be from 1-32.
+
+keccak256->it computes the keccak256 hash of the input data. Creating a determinisitic uniqueId from a input.
+
+
+Image Links->
+https://i.ibb.co/h7RXm7x/k1.png
+https://i.ibb.co/C5jYb6D/k2.png
+https://i.ibb.co/gSSRKFR/k3.png
+https://i.ibb.co/ygL4w1C/k4.png
+https://i.ibb.co/LCgK2yf/k5.png
+https://i.ibb.co/2jhmLvf/k6.png
+https://i.ibb.co/tPFVD9x/k7.png
