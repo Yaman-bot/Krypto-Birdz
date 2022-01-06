@@ -2,6 +2,7 @@
 The KryptoBirdz are an NFT space opera satire of 500 uniquely algorithmically generated collectibles. There are only one of each k-bird, and each one of them can be uniquely owned by one single person, humanoid, or shadow syndicate on the Ethereum blockchain.This is just a fun NFT marketplace made as a side project.
 
 ## Featured Examples
+![](src/assets/Screenshot1.png)
 ![](src/assets/Screenshot2.png)
 ![](src/assets/Screenshot3.png)
 ![](src/assets/Screenshot4.png)
